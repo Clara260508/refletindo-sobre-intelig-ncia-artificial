@@ -6,15 +6,15 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Você se depara com uma foto de um casal homossexual nas redes sociais e, ao ler os comentários, encontra diversas manifestações de julgamento e crítica. o que você pensa a respeito?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                texto: "Eu acho que isso mostra como a intolerância ainda está presente em muitas pessoas. Infelizmente, tem muita gente que não aceita a diversidade e sente que tem o direito de julgar, o que é bem errado. As redes sociais acabam amplificando esse tipo de comentário, mas também podem ser usadas para ensinar as pessoas sobre respeito e igualdade."
+                afirmacao: "Você acredita que a mudança depende de cada um de nós. A gente precisa aprender mais sobre empatia, ser mais educado e combater o preconceito no dia a dia, tanto online quanto offline, para que todo mundo, independentemente da sexualidade, seja respeitado."
             },
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "Acho que as redes sociais são um lugar onde as pessoas têm opiniões bem diferentes, mas também vejo isso como uma chance de normalizar o amor entre pessoas do mesmo sexo. Mesmo com comentários negativos, eu acredito que quanto mais visibilidade e apoio as pessoas LGBTQIA+ tiverem, mais a sociedade vai aprender a respeitar e aceitar."
+                afirmacao: "Você vê as redes sociais como uma ferramenta para aumentar a visibilidade e o respeito, acreditando que, com o tempo, a sociedade vai se tornar mais aberta e menos preconceituosa, ajudando a reduzir esses julgamentos."
             }
         ]
     },
@@ -32,16 +32,15 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Você está na escola com seus amigos, assistindo a vídeos no tik tok, e aparece um vídeo de alguém acima do peso, alguns de seus amigos querem comentar algo inapropriado que claramente poderá entristecer a pessoa do vídeo, o que você faz?
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "Eu falaria para eles pararem e os lembraria de que, antes de comentar qualquer coisa, é importante pensar no impacto que isso pode ter na pessoa do vídeo. Ninguém merece ser alvo de piadas por causa do corpo, e a gente tem que ser mais consciente sobre o que compartilhamos nas redes.",
+                afirmacao: "Você entende que as palavras podem causar muito mais impacto do que imaginamos, e acredita que a mudança começa com atitudes mais conscientes. A sua intervenção pode ajudar a criar um ambiente mais respeitoso online e nas interações do dia a dia."
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
-            }
+                texto: "Eu ficaria na minha e não diria nada. Sei que é errado, mas, às vezes, é difícil interromper uma piada ou se opor ao que os outros estão fazendo, principalmente para não causar um desconforto no grupo."
+                afirmacao: "Você percebe que, embora a pressão social possa fazer você hesitar, é importante refletir sobre o que pode ser feito para não alimentar comportamentos tóxicos. Isso te faz pensar sobre como seria mais fácil fazer a coisa certa se tivéssemos mais coragem para agir contra o que é errado."
         ]
     },
     {
